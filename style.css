@@ -1,0 +1,82 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.parte-1 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.parallax{
+    background-image: url("/parallax-app-facil/img/capa.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.botao{
+    background-color: rgb(0, 162, 255);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+.parte-2{
+    background-color: beige;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 250px 250px 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+   text-align: center;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+
+}
+.t2 {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+img{
+    width: 80px;
+
+}
+.pessoa {
+    border-radius: 50px;
+}
+.parte-3{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+
+
+}
+.parte-3 p{
+    grid-column:  1/-1;
+}
+.parte-3 .botao {
+    width: 150px;
+}
+.rodape {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
